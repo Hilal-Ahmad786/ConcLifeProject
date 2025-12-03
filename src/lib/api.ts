@@ -98,6 +98,22 @@ const MOCK_CLIMATE: ClimateData[] = [
         description: 'Historical weather data from 1990-2020.',
         dataPoints: [],
     },
+    {
+        id: 'clim-4',
+        name: 'Marmara Region (Historical)',
+        location: 'Istanbul, Turkey',
+        type: 'historical',
+        description: 'Historical weather data for Istanbul area (1990-2020).',
+        dataPoints: [],
+    },
+    {
+        id: 'clim-5',
+        name: 'Central Anatolia (RCP 4.5)',
+        location: 'Ankara, Turkey',
+        type: 'rcp4.5',
+        description: 'Projected climate scenario for Central Anatolia.',
+        dataPoints: [],
+    },
 ];
 
 const MOCK_SIMULATIONS: Simulation[] = [
